@@ -3,7 +3,9 @@
     "sass": "^1.82.0"
   },
   "scripts": {
-    "sass:watch": "sass --watch style.scss:style.css",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -12,7 +14,8 @@
     "eslint-plugin-prettier": "^5.2.1",
     "husky": "^8.0.0",
     "lint-staged": "^15.2.11",
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "vite": "^6.0.3"
   },
   "husky": {
     "hooks": {
